@@ -1,0 +1,62 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+/*Ajuste de separadores hr para el menu*/
+hr {
+  height: 4px;
+  margin-bottom:-3px;
+}
+
+/*Ajuste de separadores hr para el menu*/
+.hr-primary{
+	background-color: red;
+}
+
+/*Estilo usado para el titulo de la web*/
+.zcool-text{
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+/*Ajustes para el titulo de la web*/
+#titulo-web{
+	font-family: 'ZCOOL KuaiLe', cursive;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+	font-size: 1.3em;
+}
+
+.card-margin{
+	padding: :3em;
+}
+
+div.card{
+  	width: 100%;
+  }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+div.card{
+  	width: 100%;
+  }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+div.card{
+  	width: 33%;
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+div.card{
+  	width: 33%;
+  }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+iv.card{
+  	width: 25%;
+  }
+}
+
